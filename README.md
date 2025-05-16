@@ -1,6 +1,6 @@
-# Ferramentas Bioinformáticas Aplicadas ao Estudo Genómico e Filogenético de Populações
+# Ferramentas Bioinformáticas Aplicadas ao Estudo Genômico e Filogenético de Populações
 
-### Thainá Cortez
+### Instrutora: Thainá Cortez
 
 Bem vindo ao mini-curso de berramentas Bioinformáticas Aplicadas ao Estudo Genómico e Filogenético de Populações.
 
@@ -14,9 +14,8 @@ Este repositório contém quatro tutoriais:
 
 1. [Introdução teórica](https://github.com/rafaeliwama/GenEvol_bioinformatica/blob/main/Tutorial_0.md)
 2. [Introdução ao terminal, linhas de comando, arquivos fasta e BLAST](https://github.com/rafaeliwama/GenEvol_bioinformatica/blob/main/Tutorial_1_Introducao_terminal.md)
-3. [Manipulação de arquivos fasta, fastq e vcf](https://github.com/rafaeliwama/GenEvol_bioinformatica/blob/main/Tutorial_2_analise_expressao_diferencial.md)
-4. [Métricas de diversidade](https://github.com/rafaeliwama/GenEvol_bioinformatica/blob/main/Tutorial_3_Gene_ontology.md)
-5. [Rede de haplótipos](https://github.com/rafaeliwama/GenEvol_bioinformatica/blob/main/Tutorial_3_Gene_ontology.md)
+3. [Métricas de diversidade e rede de haplótipos](https://github.com/rafaeliwama/GenEvol_bioinformatica/blob/main/Tutorial_3_Gene_ontology.md)
+4. [Reconstrução filogenética](https://github.com/rafaeliwama/GenEvol_bioinformatica/blob/main/Tutorial_3_Gene_ontology.md)
 
 
 Se tiver dúvidas após o curso, mande um e-mail para thainacortezs@gmail.com
