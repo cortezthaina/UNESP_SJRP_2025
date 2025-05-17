@@ -1,8 +1,8 @@
 # Ferramentas Bioinformáticas Aplicadas ao Estudo Genômico e Filogenético de Populações
 
-### Instrutora: Thainá Cortez
+### Docente: Thainá Cortez
 
-Bem vindo ao mini-curso de berramentas Bioinformáticas Aplicadas ao Estudo Genómico e Filogenético de Populações.
+Bem vindo ao mini-curso de berramentas Bioinformáticas Aplicadas ao Estudo Genômico e Filogenético de Populações.
 
 Este será o repositório da parte prática do mini-curso e ficará disponível neste link mesmo depois que o mini-curso acabar.
 
