@@ -44,4 +44,42 @@ Clique no ícone de cores e selecione a paleta desejada. Você deve visualizar o
 Faça as modificações estéticas que desejar conforme instruções. 
 
 ## IQ-Tree (Galaxy)
+Acesse a plataforma Galaxy em https://usegalaxy.org/. Busque por 'IQTREE' na caixa de busca ao lado direito superior da tela conforme abaixo:          
+![image](https://github.com/user-attachments/assets/cca5865c-5458-4855-a54d-72d14b3a9d56)
+
+Selecione a opção 'IQ-TREE'. 
+Selecione seu input através dos três pontos na caixa de seleção. 
+![image](https://github.com/user-attachments/assets/47710313-7429-4a88-8dfe-dcc7d26704ff)      
+
+Selecione o arquivo em pratica2/Saccocirrus.phy.
+Adicione o nome do nosso outgroup: 'Phjouinae'. 
+Especifique seu tipo de dataset: DNA.
+Seu painel deve ficar dessa forma:
+![image](https://github.com/user-attachments/assets/f9e190c9-6a6d-4526-9662-d00b2ac263c6)      
+
+Em boostrap parameters, insira 1000 ultrafast bootstrap replicates:
+![image](https://github.com/user-attachments/assets/4e88827d-4a6f-47f8-a142-75d2bb43c624)      
+
+Por fim, clique em 'Run tool'. Aguarde os resultados. 
+
+Quando os resultados estiverem prontos (cerca de 10-15 min), faça download do arquivo 'Report and final tree'. 
+![image](https://github.com/user-attachments/assets/9d697790-f111-4931-aee6-5edf29c895f0)
+
+Abra o arquivo e analise. Copia a linha que contém a árvore consenso ao final do arquivo:
+![image](https://github.com/user-attachments/assets/a26bef6c-5f2a-4b7e-896f-e3b5b1c0a61e)
+
+Cole em um novo arquivo de texto (.txt) nomeado da forma que preferir. 
+Abra o programa Figtree clicando no executável FigTreev1.4.4.exe. Vá em File -> Open. Selecione o arquivo criado. 
+Na caixa que pergunta sobre o valor embutido na árvore, escreva BS, que se refere ao valor de bootstrap.
+![image](https://github.com/user-attachments/assets/359f0667-b653-4b1d-acfb-550effe53524)
+
+Selecione o terminal 'Phjouinae' e clique em 'Reroot'. Selecione a caixa de Branch Labels e selecione o valor de BS. Analise a árvore.
+![image](https://github.com/user-attachments/assets/c3e5c539-2695-4350-aa75-eb2d2bf9592c)
+
+
+**Caso o Figtree não funcione**, abra a plataforma ETE-Toolkit Tree View em https://etetoolkit.org/treeview/. 
+Cole a árvore na caixa do formato newick e clique em View Tree!
+![image](https://github.com/user-attachments/assets/9fa7788d-0df6-41ae-a283-c51a58bb8568)
+
+
 
