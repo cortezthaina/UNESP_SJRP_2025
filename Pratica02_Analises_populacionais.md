@@ -8,6 +8,7 @@ labex:project/ $ ls pratica2
 ```
 
 Devem constar:
+```
 PCA-DAPC.R
 Saccocirrus.arp
 Saccocirrus.fasta
@@ -15,6 +16,7 @@ Saccocirrus.hap
 Saccocirrus.phy
 Saccocirrus_popart.txt
 Saccocirrus_code.txt
+```
 
 Acesse o compilador R por meio do link https://posit.cloud/. Clique em 'Sign up' e inicie uma conta gratuitamente. 
 Crie um novo projeto RStudio, conforme o indicado na figura abaixo.                  
