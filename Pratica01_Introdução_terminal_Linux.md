@@ -1,8 +1,12 @@
 # Prática 1 - Introdução ao Linux, arquivos fasta e fastq
 ## Acessando o terminal Linux remotamente
 
-Acesse o site https://labex.io/tutorials/linux-online-linux-playground-372915 e clique em 'Practice Now'. Clique no símbolo da Virtual Machine. 
-Dê um double clique em xfce4-terminal. 
+Acesse o site https://labex.io/tutorials/linux-online-linux-playground-372915 e clique em 'Practice Now'. Clique no símbolo da Virtual Machine. A tela inicial será essa abaixo:
+![image](https://github.com/user-attachments/assets/592820ec-eb0e-412f-b8cc-02cb9ff62c2e)
+
+Dê um double clique em xfce4-terminal. Você deverá ver o terminal dessa maneira:
+![image](https://github.com/user-attachments/assets/afa8ca31-1787-4643-8341-6aaaa0d3cf6d)
+
 
 
 Em verde, está indicado o nome do seu computador ou servidor (labex). Em azul, o caminho (ou
