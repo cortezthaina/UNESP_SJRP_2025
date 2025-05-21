@@ -29,3 +29,19 @@ Faça upload dos arquivos 'PCA-DAPC.R', 'Saccocirrus.fasta' e 'Saccocirrus-codes
 Clique no arquivo 'PCA-DAPC.R' para abrir o script. Rode-o conforme instruções. 
 
 ## Arlequin
+Abra o executável 'WinArl35.exe'. Clique em 'Open Project'. Selecione o arquivo 'Saccocirrus.arp'.
+Selecione as análises desejadas conforme instruções. Seu painel deve ficar dessa maneira:
+![image](https://github.com/user-attachments/assets/dfb01d8e-3214-4a72-b4ab-d2572f8b2b81)
+
+Clique em 'Start'. 
+Abra a pasta 'Saccocirrus.res' gerada no diretório de origem. Abra o arquivo "Saccocirrus.xml' em um editor de texto. 
+
+## PopART
+Abra o executável 'popart.exe'. Clique no ícone 'Nex'. Permita visualizar todos os tipos de arquivos e selecione 'Saccocirrus_popart.txt'. Vá em Network -> TCS Network. 
+Clique no ícone de cores e selecione a paleta desejada. Você deve visualizar o painel desta maneira:
+![image](https://github.com/user-attachments/assets/c8122e3e-e7fe-4c41-99ea-e41728f86b92)
+
+Faça as modificações estéticas que desejar conforme instruções. 
+
+## IQ-Tree (Galaxy)
+
