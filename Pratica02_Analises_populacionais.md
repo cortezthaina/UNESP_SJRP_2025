@@ -17,7 +17,7 @@ Saccocirrus_popart.txt
 Saccocirrus_code.txt
 
 Acesse o compilador R por meio do link https://posit.cloud/. Clique em 'Sign up' e inicie uma conta gratuitamente. 
-Crie um novo projeto RStudio, conforme o indicado na figura abaixo.
+Crie um novo projeto RStudio, conforme o indicado na figura abaixo.                  
   ![image](https://github.com/user-attachments/assets/6e300b1f-5784-46b0-8a05-59e813feedb2)
 
 Ao lado direito inferior da tela, clique em 'Upload' na aba 'Files' conforme abaixo:
