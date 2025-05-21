@@ -1,7 +1,4 @@
-![image](https://github.com/user-attachments/assets/8a6c0fe2-b8e8-455a-9919-d12fb12653e9)
-
-
-# Parte 1 - Introdução ao Linux, arquivos fasta e fastq
+# Prática 1 - Introdução ao Linux, arquivos fasta e fastq
 ## Acessando o terminal Linux remotamente
 
 Acesse o site https://labex.io/tutorials/linux-online-linux-playground-372915 e clique em 'Practice Now'. Clique no símbolo da Virtual Machine. 
