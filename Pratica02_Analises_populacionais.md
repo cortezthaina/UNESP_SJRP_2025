@@ -73,6 +73,10 @@ Abra o programa Figtree clicando no executável FigTreev1.4.4.exe. Vá em File -
 Na caixa que pergunta sobre o valor embutido na árvore, escreva BS, que se refere ao valor de bootstrap.
 ![image](https://github.com/user-attachments/assets/359f0667-b653-4b1d-acfb-550effe53524)
 
+Você deverá ver um painel deste:
+![image](https://github.com/user-attachments/assets/59784a2a-b171-4999-9b2a-5659f844de13)
+
+
 Selecione o terminal 'Phjouinae' e clique em 'Reroot'. Selecione a caixa de Branch Labels e selecione o valor de BS. Analise a árvore.
 ![image](https://github.com/user-attachments/assets/c3e5c539-2695-4350-aa75-eb2d2bf9592c)
 
