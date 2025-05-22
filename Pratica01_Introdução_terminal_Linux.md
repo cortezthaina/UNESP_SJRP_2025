@@ -149,7 +149,7 @@ usuario@DESKTOP-00RFJVC:~$ rm copia.txt
 > **Lembre-se, o sistema Linux não alerta ou pede confirmação de exclusão de seus arquivos. Portanto, arquivos excluídos não vão para lixeira ou pastas temporárias e, logo, são perdidos definitivamente, sem possibilidade de recuperação. Sempre tenha um backup dos seus arquivos!**
 
 ## Arquivos fasta
-# Linux
+### Linux
 
 
 Para download dos arquivos do github pelo terminal, use o comando git clone:
@@ -182,14 +182,14 @@ grep -c ">" seq.fasta
 
 Perceba que o arquivo contém cinco sequencias em formato fasta que obedecem a mesma estrutura do arquivo anterior. Porém as sequências não estão identificadas.
 
-# Windows
+### Windows
 Para download dos arquivos do github pelo Windows, clique no item <> Code e, em seguida, em 'Download ZIP'
 ![image](https://github.com/user-attachments/assets/cd4b4601-9917-4528-8aed-4de180436427)
 
 Abra o arquivo em pratica1/seq.fasta em um editor de texto, preferencialmente Notepad++.
 Contabilize as sequências.
 
-## BLAST
+### BLAST
 
 Agora, nós vamos tentar identificar estas sequências utilizando a ferramenta BLAST.
 
@@ -216,7 +216,7 @@ Perceba que o BLAST possui diferentes ferramentas de busca que podem ser utiliza
 
    
 ## Arquivo fastq
-# Windows
+### Windows
 Acesse a plataforma Galaxy em https://usegalaxy.org/. Busque por 'Fastqc' na caixa de busca ao lado direito superior da tela conforme abaixo:          
 ![image](https://github.com/user-attachments/assets/b9b8e676-4868-4f0f-932f-00c2549664cb)
 
@@ -230,7 +230,7 @@ Após o upload, clique em 'Run Tool'. Aguarde ~5 minutos e acesse os resultados 
 
 Acesse os resultados contidos no ERR12983424_2_fastq_fastqc.html.
 
-# Linux
+### Linux
 Dentro do diretório do curso, utilize o comando "head" para printar as primeiras 15 linhas do arquivo "ERR12983424_2.fastq".
 
 ```
