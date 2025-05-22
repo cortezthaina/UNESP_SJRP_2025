@@ -1,5 +1,11 @@
 # Prática 1 - Introdução ao Linux, arquivos fasta e fastq
-## Acessando o terminal Linux
+## Acessando o terminal Linux remotamente
+
+Acesse o site https://labex.io/tutorials/linux-online-linux-playground-372915 e clique em 'Practice Now'. Clique no símbolo da Virtual Machine. A tela inicial será essa abaixo:
+![image](https://github.com/user-attachments/assets/592820ec-eb0e-412f-b8cc-02cb9ff62c2e)
+
+Dê um double clique em xfce4-terminal. Você deverá ver o terminal dessa maneira:
+![image](https://github.com/user-attachments/assets/afa8ca31-1787-4643-8341-6aaaa0d3cf6d)
 
 Em verde, está indicado o nome do seu computador ou servidor (labex). Em azul, o caminho (ou
 endereço) no qual você se encontra (project). Para checar o diretório atual o qual você se encontra,
@@ -143,8 +149,7 @@ usuario@DESKTOP-00RFJVC:~$ rm copia.txt
 > **Lembre-se, o sistema Linux não alerta ou pede confirmação de exclusão de seus arquivos. Portanto, arquivos excluídos não vão para lixeira ou pastas temporárias e, logo, são perdidos definitivamente, sem possibilidade de recuperação. Sempre tenha um backup dos seus arquivos!**
 
 ## Arquivos fasta
-Para download dos arquivos do github pelo Windows, clique no item <> Code e, em seguida, em 'Download ZIP'
-![image](https://github.com/user-attachments/assets/cd4b4601-9917-4528-8aed-4de180436427)
+# Linux
 
 
 Para download dos arquivos do github pelo terminal, use o comando git clone:
@@ -176,6 +181,15 @@ grep -c ">" seq.fasta
 ```
 
 Perceba que o arquivo contém cinco sequencias em formato fasta que obedecem a mesma estrutura do arquivo anterior. Porém as sequências não estão identificadas.
+
+# Windows
+Para download dos arquivos do github pelo Windows, clique no item <> Code e, em seguida, em 'Download ZIP'
+![image](https://github.com/user-attachments/assets/cd4b4601-9917-4528-8aed-4de180436427)
+
+Abra o arquivo em pratica1/seq.fasta em um editor de texto, preferencialmente Notepad++.
+Contabilize as sequências.
+
+## BLAST
 
 Agora, nós vamos tentar identificar estas sequências utilizando a ferramenta BLAST.
 
