@@ -202,7 +202,21 @@ Perceba que o BLAST possui diferentes ferramentas de busca que podem ser utiliza
 
    
 ## Arquivo fastq
+# Windows
+Acesse a plataforma Galaxy em https://usegalaxy.org/. Busque por 'Fastqc' na caixa de busca ao lado direito superior da tela conforme abaixo:          
+![image](https://github.com/user-attachments/assets/b9b8e676-4868-4f0f-932f-00c2549664cb)
 
+
+Selecione a opção 'Fastqc'. 
+Selecione seu input através dos três pontos na caixa de seleção. Adicione o formato 'fastq' e clique em 'Start'. 
+![image](https://github.com/user-attachments/assets/47710313-7429-4a88-8dfe-dcc7d26704ff)    
+
+Após o upload, clique em 'Run Tool'. Aguarde ~5 minutos e acesse os resultados no painel lateral no link 'Fsastqc Raw Data'
+![image](https://github.com/user-attachments/assets/9d79d1ee-1dec-4fa5-96ce-16e3df650d35)
+
+Acesse os resultados contidos no ERR12983424_2_fastq_fastqc.html.
+
+# Linux
 Dentro do diretório do curso, utilize o comando "head" para printar as primeiras 15 linhas do arquivo "ERR12983424_2.fastq".
 
 ```
@@ -244,7 +258,6 @@ Agora, corra a análise com o executável dentro de FastQC/
 FastQC/fastqc ERR12983424_2.fastq
 ```
 
-Para Windows, abra o site do Galaxy
-
+Acesse os resultados contidos no ERR12983424_2_fastq_fastqc.html.
 
 Caso haja algum erro e/ou impossibilidade de rodar o script, abra o arquivo ERR12983424_2_fastqc.html que está no diretório do curso em um navegador de internet e avalie os gráficos. 
