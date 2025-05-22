@@ -217,6 +217,17 @@ Perceba que o BLAST possui diferentes ferramentas de busca que podem ser utiliza
    
 ## Arquivo fastq
 ### Windows
+Abra o arquivo em pratica1/ERR12983424_2_fastqc em um editor de texto comum.
+
+Observe que a diferentemente do arquivo fasta, o arquivo em formato fastq não inicia com '>'. Neste caso, os identificadores das sequências são linhas iniciadas por '@'. O arquivo contém, pra cada sequências, quatro linhas que nos fornecem informações de qualidade. São elas:
+```
+1a linha -> ID da sequência (sequence identifier)
+2a linha -> Sequência
+3a linha -> ID do quality score (inicia com +)
+4a linha -> Quality score
+```
+Para contabilizar as sequências e avaliar sua qualidade, rodaremos o software FASTQC.
+
 Acesse a plataforma Galaxy em https://usegalaxy.org/. Busque por 'Fastqc' na caixa de busca ao lado direito superior da tela conforme abaixo:          
 ![image](https://github.com/user-attachments/assets/b9b8e676-4868-4f0f-932f-00c2549664cb)
 
@@ -231,7 +242,7 @@ Após o upload, clique em 'Run Tool'. Aguarde ~5 minutos e acesse os resultados 
 Acesse os resultados contidos no ERR12983424_2_fastq_fastqc.html.
 
 ### Linux
-Dentro do diretório do curso, utilize o comando "head" para printar as primeiras 15 linhas do arquivo "ERR12983424_2.fastq".
+Dentro do diretório do curso, em pratica1/, utilize o comando "head" para printar as primeiras 15 linhas do arquivo "ERR12983424_2.fastq".
 
 ```
 head ERR12983424_2.fastq
