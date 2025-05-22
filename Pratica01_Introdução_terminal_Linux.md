@@ -1,41 +1,14 @@
 # Prática 1 - Introdução ao Linux, arquivos fasta e fastq
-## Acessando o terminal Linux remotamente
-
-Acesse o site https://labex.io/tutorials/linux-online-linux-playground-372915 e clique em 'Practice Now'. Clique no símbolo da Virtual Machine. A tela inicial será essa abaixo:
-![image](https://github.com/user-attachments/assets/592820ec-eb0e-412f-b8cc-02cb9ff62c2e)
-
-Dê um double clique em xfce4-terminal. Você deverá ver o terminal dessa maneira:
-![image](https://github.com/user-attachments/assets/afa8ca31-1787-4643-8341-6aaaa0d3cf6d)
-
-
+## Acessando o terminal Linux
 
 Em verde, está indicado o nome do seu computador ou servidor (labex). Em azul, o caminho (ou
 endereço) no qual você se encontra (project). Para checar o diretório atual o qual você se encontra,
 use o comando pwd.
 
 ```
-labex:project/ $ pwd
-/home/labex/project
+tcortez@AcerTCS:~$ pwd
+/home/tcortez
 ```
-
-Para criar um novo diretório, temos o comando mkdir (make directory). Para usá-lo, basta
-adicionar o nome do diretório ***(não pode conter espaços!)*** depois do comando.
-
-Crie um diretório com o nome 'pratica1'.
-
-```
-usuario@DESKTOP-00RFJVC:~$ mkdir pratica1
-
-```
-
-Para entrar nesse diretório novo, use o comando cd (change directory), apenas o indicando
-depois do cd.
-
-```
-usuario@DESKTOP-00RFJVC:~$ cd pratica1/
-```
-
-Criando e editando arquivos de texto
 
 Para criação de um novo arquivo, podem ser utilizados os comandos touch ou nano. O comando
 nano abrirá o arquivo para edição, enquanto o comando touch somente criará o arquivo.
@@ -170,8 +143,11 @@ usuario@DESKTOP-00RFJVC:~$ rm copia.txt
 > **Lembre-se, o sistema Linux não alerta ou pede confirmação de exclusão de seus arquivos. Portanto, arquivos excluídos não vão para lixeira ou pastas temporárias e, logo, são perdidos definitivamente, sem possibilidade de recuperação. Sempre tenha um backup dos seus arquivos!**
 
 ## Arquivos fasta
+Para download dos arquivos do github pelo Windows, clique no item <> Code e, em seguida, em 'Download ZIP'
+![image](https://github.com/user-attachments/assets/cd4b4601-9917-4528-8aed-4de180436427)
 
-Para download dos arquivos do github no terminal, use o comando git clone:
+
+Para download dos arquivos do github pelo terminal, use o comando git clone:
 
 ```
 git clone https://github.com/cortezthaina/UNESP_SJRP_2025/
@@ -267,5 +243,8 @@ Agora, corra a análise com o executável dentro de FastQC/
 ```
 FastQC/fastqc ERR12983424_2.fastq
 ```
+
+Para Windows, abra o site do Galaxy
+
 
 Caso haja algum erro e/ou impossibilidade de rodar o script, abra o arquivo ERR12983424_2_fastqc.html que está no diretório do curso em um navegador de internet e avalie os gráficos. 
