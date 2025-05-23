@@ -3,10 +3,6 @@
 
 Para iniciar as análises populacionais, cheque se todos os arquivos necessários constam no diretório 'pratica2'. 
 
-```
-labex:project/ $ ls pratica2
-```
-
 Devem constar:
 ```
 PCA-DAPC.R
